@@ -1,8 +1,12 @@
 import React from 'react';
-import TodoList from './TodoList';
+import BoxList from './BoxList';
 
 function App() {
-  return <TodoList />
+  return (
+    <div>
+      <BoxList />
+    </div>
+  );
 }
 
 export default App;
